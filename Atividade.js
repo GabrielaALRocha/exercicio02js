@@ -10,7 +10,7 @@ tamanho.forEach((letra )=>{
     console.log(letra)
 })
 
- /* <-------------------------------------------------------------------------------------------------------------------------------> 
+ /* 
  -> Crie um programa que pergunta quantos números o usuário deseja digitar (tanto inteiro quanto decimal) e receba os números e armazene esses números em um array e depois mostre a soma total deles, a média deles, mostre cada valor em uma potência de 2 e faça a raíz quadrada e cúbica de cada um. */
 
  let quantidade = parseInt(prompt('Insira quantos valores você deseja digitar: '))
@@ -32,8 +32,7 @@ console.log(armazena)
 console.log(`A soma dos números é ${soma}`)
 console.log(`A média dos números é ${soma/quantidade}`)
 
-/* <-------------------------------------------------------------------------------------------------------------------------------> 
--> Peça ao usuário para digitar um número binário e o converta para decimal. */
+/*  -> Peça ao usuário para digitar um número binário e o converta para decimal. */
 
 let binario = prompt('Digite um número binario: ')
 arrayBinario = binario.split("")
@@ -49,3 +48,4 @@ exp++
 }
 
 console.log(`O numero ${binario} em decimal fica ${soma2}`)
+
