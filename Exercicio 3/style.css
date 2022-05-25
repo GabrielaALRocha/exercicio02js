@@ -9,13 +9,10 @@ body {
     flex-direction: column;
     background: rgb(60, 60, 60);
   }
-  
   #on-off {
     margin-top: 20px;
   }
-.lampada{
-  
-}  
+
   .on {
     background-image: url(lampada-de-ideia.png);
    
